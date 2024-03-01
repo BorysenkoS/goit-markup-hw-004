@@ -99,6 +99,7 @@ img {
 
 .is-active {
   position: relative;
+  color: #404bbf;
 }
 
 .is-active::after {
