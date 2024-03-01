@@ -386,7 +386,7 @@ img {
 
   width: 100%;
   height: 100%;
-  padding: 46px 32px;
+  padding: 40px 32px;
 
   font-family: Roboto;
   font-size: 16px;
@@ -461,16 +461,16 @@ img {
   color: #f4f4fd;
 }
 
-.footer-social-title {
+.footer-social-text {
   color: #fff;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .footer-social-list {
@@ -478,8 +478,11 @@ img {
   gap: 16px;
 }
 
-.footer-container {
+.page-footer {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.footer-mini-container {
+  margin-right: 120px;
 }
